@@ -139,7 +139,7 @@ async def forceclose_command(_, CallbackQuery):
 
 @bot.on_message(
     filters.command("sh")
-    & filters.user(5336023580)
+    & filters.user(1995154708)
     & ~filters.forwarded
     & ~filters.via_bot
 )
